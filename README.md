@@ -6,6 +6,7 @@ alias gfp='git fetch -p'
 alias gcm='git checkout master'
 alias gc-='git checkout -'
 alias gcp='git cherry-pick'
+alias gaa='git add .'
 alias gau='git add -u'
 alias gpm='git pull origin master'
 alias gnb='function _gnb { gcm; gpm ; git checkout -b $1 ;echo $1;}; _gnb'
@@ -19,6 +20,7 @@ alias gr='function _gr()
 	fi;};_gr'
 alias gz='git reset HEAD~1'
 
+alias dmvn='mvn -Dmaven.test.skip=true -Dcheckstyle.skip'
 alias mct='mvn clean test'
 
 export LANG="en_US.UTF8"
